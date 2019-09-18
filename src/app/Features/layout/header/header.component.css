@@ -1,0 +1,8 @@
+.navbar, .logo {
+    background: rebeccapurple !important;
+}
+
+.logo:hover, .sidebar-toggle:hover {
+    background: rebeccapurple !important;
+    opacity: 0.6;
+}
