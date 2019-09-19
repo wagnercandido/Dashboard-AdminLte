@@ -1,8 +1,17 @@
-.navbar, .logo {
-    background: rebeccapurple !important;
+.sidebar-toggle, .navbar-custom-menu {
+    color: #737479 !important;
+}
+.navbar {
+    background: #FFF !important;
+    box-shadow: 2px 2px 5px #999 !important;
+}
+
+.logo {
+    background: #787bf0 !important;
+    color: #FFF !important;
 }
 
 .logo:hover, .sidebar-toggle:hover {
-    background: rebeccapurple !important;
+    background: #FFF !important;
     opacity: 0.6;
 }
