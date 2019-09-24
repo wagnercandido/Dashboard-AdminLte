@@ -1,0 +1,11 @@
+.main-sidebar {
+    background: #203658;
+}
+
+.active a {
+    background: #324869  !important;
+}
+
+ul li a:hover {
+    background: #324869  !important;
+}

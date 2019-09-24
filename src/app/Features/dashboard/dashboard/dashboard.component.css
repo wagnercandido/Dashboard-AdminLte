@@ -1,0 +1,8 @@
+.btn-flutuante {
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    position: absolute;
+    right: 16px;
+    bottom: 66px;
+}

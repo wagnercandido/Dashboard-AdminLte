@@ -7,11 +7,21 @@
 }
 
 .logo {
-    background: #787bf0 !important;
+    background: #203658 !important;
     color: #FFF !important;
+    box-shadow: 2px 2px 5px #0b0b0b !important;
 }
 
 .logo:hover, .sidebar-toggle:hover {
     background: #FFF !important;
     opacity: 0.6;
+}
+
+.fa, .nome-user {
+    color: #737479 !important;
+}
+
+.user-image {
+    box-shadow: 0px 1px 3px 1px #737479 !important;
+    border: 1px solid #EEE;
 }
