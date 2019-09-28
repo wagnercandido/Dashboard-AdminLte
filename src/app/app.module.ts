@@ -6,7 +6,6 @@ import { DashboardModule } from '../app/Features/dashboard/dashboard.module';
 import { LoginModule } from '../app/Features/login/login.module';
 import { AppComponent } from './app.component';
 
-
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     LoginModule,
-    DashboardModule
+    DashboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

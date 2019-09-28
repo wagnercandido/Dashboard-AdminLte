@@ -7,6 +7,7 @@ import { LayoutModule } from '../layout/layout.module';
 import { PrincipalComponent } from './dashboard/principal/principal.component';
 import { OutroComponent } from './dashboard/outro/outro.component';
 import { TerceiroComponent } from './dashboard/terceiro/terceiro.component';
+import { FloatingButtonComponent } from 'src/app/shared/floating-button/floating-button.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { TerceiroComponent } from './dashboard/terceiro/terceiro.component';
     DashboardComponent,
     PrincipalComponent,
     OutroComponent,
-    TerceiroComponent
+    TerceiroComponent,
+    FloatingButtonComponent
   ]
 })
 export class DashboardModule { }
