@@ -10,10 +10,12 @@
             <i class="material-icons">add</i>
         </button>
         <ul id="dropdown-menu" class="dropdown-menu" aria-labelledby="drop-floating">
-            <li><a class="drop-float-option" href=""><i class="material-icons">add</i></a></li>
-            <li><a class="drop-float-option" href=""><i class="material-icons">add</i></a></li>
-            <li><a class="drop-float-option" href=""><i class="material-icons">add</i></a></li>
-            <li><a class="drop-float-option" href=""><i class="material-icons">add</i></a></li>
+            <li *ngFor="let option of options">
+                <a class="span-option">{{option.title}}</a>
+                <a dta-toggle="tooltip" data-placement="left" [ngStyle]="{'background': option.color}" class="span-option drop-float-option" [routerLink]="[ option.router ]">
+                    <i class="material-icons md-20">{{option.icon}}</i>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
