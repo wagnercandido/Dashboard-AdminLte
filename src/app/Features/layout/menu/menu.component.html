@@ -24,19 +24,15 @@
 
     <ul class="sidebar-menu" data-widget="tree">
       <li class="header">MAIN NAVIGATION</li>
-      <li class="" routerLinkActive="active">
-        <a [routerLink]="[ 'principal' ]">
-          <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+      <li *ngFor="let option of options" routerLinkActive="active">
+        <a [routerLink]="[ option.router ]" >
+          <i class="material-icons">{{option.icon}}</i> <span>{{option.title}}</span>
         </a>
       </li>
-      <li class="" routerLinkActive="active">
+
+      <!-- <li class="" routerLinkActive="active">
         <a [routerLink]="[ 'outro' ]">
-          <i class="fa fa-files-o"></i><span>Layout Options</span>
-        </a>
-      </li>
-      <li class="" routerLinkActive="active">
-        <a [routerLink]="[ 'outro' ]">
-          <i class="fa fa-files-o"></i><span>Transações</span>
+            <i class="material-icons">swap_vert</i> <span>Transações</span>
         </a>
       </li>
       <li class="" routerLinkActive="active">
@@ -58,7 +54,9 @@
         <a href="#">
           <i class="fa fa-link"></i> <span>Categorias</span>
         </a>
-      </li>
+      </li> -->
+      
+
       <!-- <li>
         <a href="pages/widgets.html">
           <i class="fa fa-th"></i> <span>Widgets</span>
