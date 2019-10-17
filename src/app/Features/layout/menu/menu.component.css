@@ -27,3 +27,7 @@ ul li a:hover {
     -webkit-font-smoothing: antialiased;
     width: 30px;
 }
+
+.span-title {
+  height: 50px;
+}
